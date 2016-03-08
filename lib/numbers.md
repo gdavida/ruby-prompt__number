@@ -19,6 +19,13 @@ instructor_notes: Feel free to re-organize the headings (or add/remove headings)
 % modulus (divides first number by second number and returns the remainder)
 ** exponent (takes first number to the second numberth power)
 
+____NOTE____
+You can preform operations using integers and floats together. The answer will return a float.
+puts 2 + 2.5  #=> 4.5
+puts 2.5 + 2 #=> 4.5
+
+( http://ruby-doc.org/core-2.2.3/Float.html )
+
 # What is the difference between the `+` operation on a number versus on a String?
 
 -operator it performs the math of adding the numbers together
